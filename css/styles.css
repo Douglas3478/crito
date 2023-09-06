@@ -6,6 +6,26 @@ html, body {
   font-weight: 400;
 }
 
+.btn-login {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.btn-login i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-login:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #f0efe9;
+}
+
 header {
   background-color: #f0efe9;
   padding: 16px;
@@ -16,34 +36,95 @@ header .container {
   align-items: center;
   justify-content: space-between;
 }
+header .container .menu_hamburger {
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  header .container .menu_hamburger {
+    display: none;
+  }
+}
 header .container .menu {
+  display: none;
   flex: 1;
+}
+@media (min-width: 992px) {
+  header .container .menu {
+    display: block;
+  }
 }
 header .container .menu .top_menu {
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #DAD9D3;
   padding-bottom: 10px;
 }
+@media (min-width: 1200px) {
+  header .container .menu .top_menu {
+    justify-content: space-between;
+  }
+}
 header .container .menu .top_menu .contact_menu {
-  display: flex;
+  display: none;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  header .container .menu .top_menu .contact_menu {
+    display: flex;
+  }
 }
 header .container .menu .top_menu .contact_menu .contact_info {
   margin-right: 30px;
-  border-right: 1px solid black;
+  border-right: 1px solid #DAD9D3;
   padding-right: 30px;
+  font-size: 15px;
+  font-weight: 300;
+}
+header .container .menu .top_menu .contact_menu .contact_info i {
+  margin-right: 5px;
+  font-size: 1.3em;
+}
+header .container .menu .top_menu .contact_menu .contact_info.last {
+  border: none;
 }
 header .container .menu .top_menu .social_media {
   display: flex;
 }
-header .container .menu .top_menu .social_media .social_icon {
-  margin-right: 20px;
-  font-size: 20px;
+header .container .menu .top_menu .social_media a {
+  color: #191919;
+  margin-left: 20px;
+  font-size: 1.3em;
 }
-header .container .menu .bot_menu .nav_menu {
+header .container .menu .top_menu .social_media a:hover {
+  color: #9c9c9c;
+}
+header .container .menu .nav_menu {
   display: flex;
-  color: inherit;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
 }
-header .container .menu .bot_menu .nav_menu .nav_links {
-  text-decoration: none !important;
+header .container .menu .nav_menu nav a {
+  display: inline-block;
+  color: #191919;
+  text-decoration: none;
+  margin-right: 35px;
+  position: relative;
+}
+header .container .menu .nav_menu nav a.active {
+  font-weight: 500;
+}
+header .container .menu .nav_menu nav a.active::after, header .container .menu .nav_menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
 }
