@@ -22,10 +22,28 @@ header .container .menu {
 header .container .menu .top_menu {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 header .container .menu .top_menu .contact_menu {
   display: flex;
 }
 header .container .menu .top_menu .contact_menu .contact_info {
+  margin-right: 30px;
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+header .container .menu .top_menu .social_media {
+  display: flex;
+}
+header .container .menu .top_menu .social_media .social_icon {
   margin-right: 20px;
+  font-size: 20px;
+}
+header .container .menu .bot_menu .nav_menu {
+  display: flex;
+  color: inherit;
+}
+header .container .menu .bot_menu .nav_menu .nav_links {
+  text-decoration: none !important;
 }

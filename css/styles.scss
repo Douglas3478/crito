@@ -23,12 +23,37 @@ header {
             .top_menu{
                 display: flex;
                 justify-content: space-between;
+                border-bottom: 1px solid black;
+                padding-bottom: 10px;
 
                 .contact_menu {
                     display: flex;
 
                     .contact_info {
+                        margin-right: 30px;
+                        border-right: 1px solid black;
+                        padding-right: 30px;
+                    }
+                }
+
+                .social_media {
+                    display: flex;
+
+                    .social_icon {
                         margin-right: 20px;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .bot_menu {
+                
+                .nav_menu {
+                    display: flex;
+                    color: inherit;
+
+                    .nav_links {
+                        text-decoration: none !important;
                     }
                 }
             }
