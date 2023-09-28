@@ -296,6 +296,50 @@ header .container .menu .nav_menu .btn-nav {
   }
 }
 
+.features_section .features_border {
+  border: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 160px 20px 190px;
+}
+.features_section .features_border .container {
+  display: flex;
+  padding-top: 160px;
+  padding-bottom: 190px;
+}
+.features_section .features_border .container .section_title {
+  text-align: left;
+  padding: 0;
+  padding-right: 145px;
+}
+.features_section .features_border .container .section_title h2 {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.features_section .features_border .container .section_title button {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.features_section .features_border .container .business_advice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 145px;
+  padding-right: 145px;
+}
+.features_section .features_border .container .business_advice article {
+  width: 215px;
+}
+.features_section .features_border .container .business_advice article h3 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.features_section .features_border .container .business_advice article p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .project_section .container .section_title {
   text-align: center;
 }
@@ -351,9 +395,15 @@ header .container .menu .nav_menu .btn-nav {
   padding-bottom: 80px;
 }
 .newsletter .background_lines_right {
+  display: none;
   position: absolute;
   bottom: 50px;
   right: 0;
+}
+@media (min-width: 1200px) {
+  .newsletter .background_lines_right {
+    display: block;
+  }
 }
 .newsletter .container {
   display: flex;

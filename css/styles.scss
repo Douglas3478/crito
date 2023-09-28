@@ -321,7 +321,61 @@ header {
     @media (max-width: 1200px) {
         display: none;
     }
+} 
+.features_section {
+    
+    .features_border {
+        border: 1px solid grey; 
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+        padding: 160px 20px 190px;
+
+        .container {
+            display: flex;
+            padding-top: 160px;
+            padding-bottom: 190px;
+            .section_title {
+                text-align: left;
+                padding: 0;
+                padding-right: 145px;
+                p {
+
+                }
+                h2 {
+                    padding-top: 35px;
+                    padding-bottom: 40px; 
+                    
+                }
+                button {
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%;
+                }
+            }
+            .business_advice {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 145px;
+                padding-right: 145px;
+                article {
+                    width: 215px; 
+                    
+                    
+                    h3 {
+                        font-size: 22px;
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
 }
+
 .project_section {
 
     .container {
@@ -385,9 +439,14 @@ header {
     padding-bottom: 80px;
 
     .background_lines_right {
+        display: none;
         position: absolute;
         bottom: 50px;
         right: 0;
+
+        @media (min-width: 1200px) {
+            display: block;
+        }
     }
     .container {
         display: flex;
