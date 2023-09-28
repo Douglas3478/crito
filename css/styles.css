@@ -342,6 +342,7 @@ header .container .menu .nav_menu .btn-nav {
 
 .about_section .container {
   display: flex;
+  position: relative;
 }
 .about_section .container .founder {
   padding: 0;
@@ -368,6 +369,7 @@ header .container .menu .nav_menu .btn-nav {
 }
 .about_section .container .about_company .section_title {
   padding: 0;
+  inline-size: 425px;
 }
 .about_section .container .about_company .section_title h2 {
   padding-top: 35px;
@@ -398,6 +400,56 @@ header .container .menu .nav_menu .btn-nav {
 }
 .about_section .container .about_company .learn_intro .fa-regular:hover {
   color: #9c9c9c;
+}
+
+.service_section {
+  background-color: #f0efe9;
+}
+.service_section .container .section_title {
+  inline-size: 475px;
+}
+.service_section .container .service_advice {
+  display: flex;
+  position: relative;
+  gap: 30px;
+}
+.service_section .container .service_advice article {
+  background-color: white;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+.service_section .container .service_advice article h3 {
+  text-align: left;
+  padding-bottom: 25px;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 45px;
+}
+.service_section .container .service_advice article p {
+  text-align: left;
+  padding-bottom: 35px;
+}
+.service_section .container .service_advice article .arrow_black {
+  float: right;
+}
+.service_section .container .service_advice .yellow_box {
+  background-color: #F9D783;
+}
+.service_section .container .service_advice .whitelines_service {
+  position: absolute;
+  top: 360px;
+  left: 870px;
+  z-index: 1;
+}
+.service_section .container .center_content {
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
+.service_section .container .center_content a {
+  background-color: transparent;
+  color: black;
 }
 
 .project_section .container .section_title {
