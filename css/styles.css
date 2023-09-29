@@ -399,7 +399,7 @@ header .container .menu .nav_menu .btn-nav {
   transition: 0.1s ease;
 }
 .about_section .container .about_company .learn_intro .fa-regular:hover {
-  color: #9c9c9c;
+  color: #F9D783;
 }
 
 .service_section {
@@ -434,6 +434,9 @@ header .container .menu .nav_menu .btn-nav {
 .service_section .container .service_advice article .arrow_black {
   float: right;
 }
+.service_section .container .service_advice article .arrow_black:hover {
+  cursor: pointer;
+}
 .service_section .container .service_advice .yellow_box {
   background-color: #F9D783;
 }
@@ -450,6 +453,10 @@ header .container .menu .nav_menu .btn-nav {
 .service_section .container .center_content a {
   background-color: transparent;
   color: black;
+}
+.service_section .container .center_content a:hover {
+  background-color: black;
+  color: white;
 }
 
 .project_section .container .section_title {

@@ -447,7 +447,7 @@ header {
                     transition: 0.1s ease;
                     
                     &:hover {
-                        color: #9c9c9c;
+                        color: #F9D783;
                     }
                 }
             }
@@ -492,10 +492,16 @@ header {
                 }
                 .arrow_black {
                     float: right;
+                    
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    
                 }
             }
             .yellow_box {
                 background-color: #F9D783;
+                
             }
             .whitelines_service {
                 position: absolute;
@@ -510,6 +516,10 @@ header {
             a {
                 background-color: transparent;
                 color: black;
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
             }
         }
     }
