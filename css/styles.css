@@ -459,6 +459,50 @@ header .container .menu .nav_menu .btn-nav {
   color: white;
 }
 
+.why_us_section .container {
+  display: flex;
+  position: relative;
+}
+.why_us_section .container .section_title {
+  padding-top: 65px;
+  padding-bottom: 0;
+}
+.why_us_section .container .section_title p {
+  font-size: 18px;
+}
+.why_us_section .container .consulting_agency {
+  padding-top: 65px;
+}
+.why_us_section .container .consulting_agency article {
+  padding-bottom: 45px;
+}
+.why_us_section .container .consulting_agency article img {
+  float: left;
+  padding-right: 25px;
+}
+.why_us_section .container .consulting_agency article h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.why_us_section .container .meeting_big {
+  position: relative;
+  padding-bottom: 45px;
+}
+.why_us_section .container .meeting_big .meeting {
+  position: absolute;
+  bottom: 0;
+  background-color: #f0efe9;
+  width: 1050px;
+  height: 430px;
+}
+.why_us_section .container .meeting_big img {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
 .project_section .container .section_title {
   text-align: center;
 }
@@ -507,6 +551,19 @@ header .container .menu .nav_menu .btn-nav {
   margin-bottom: 90px;
 }
 
+.team_section {
+  background-color: #F9D783;
+}
+.team_section .container .meet_team {
+  display: flex;
+  justify-content: space-between;
+}
+.team_section .container .meet_team .browse_team button {
+  border: 1px solid black;
+}
+.team_section .container .team_members {
+  display: flex;
+}
 .newsletter {
   position: relative;
   background-color: #f0efe9;

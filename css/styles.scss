@@ -524,6 +524,58 @@ header {
         }
     }
 }
+.why_us_section {
+    .container {
+        display: flex;
+        position: relative;
+        
+        .section_title {
+            padding-top: 65px;
+            padding-bottom: 0;
+            p {
+                font-size: 18px;
+            }
+        }
+        .consulting_agency {
+            padding-top: 65px;
+            
+            article {
+                padding-bottom: 45px;
+                img {
+                    float: left;
+                    padding-right: 25px;
+                }
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+                p {
+
+                }
+            }
+        }
+        .meeting_big {
+            position: relative;
+            padding-bottom: 45px;
+            .meeting {
+                position: absolute;
+                bottom: 0;
+                background-color: #f0efe9;
+                width: 1050px;
+                height: 430px;
+                
+            
+            }
+            img {
+                position: absolute;
+                top: 100px;
+                left: 100px;
+                z-index: 1;
+            }
+        }
+    }
+}
 .project_section {
 
     .container {
@@ -580,6 +632,38 @@ header {
     }
 }
 
+.team_section {
+    background-color: #F9D783;
+    .container {
+        .meet_team {
+            display: flex;
+            justify-content: space-between;
+            .section_title {
+            
+                p {
+
+                }
+                h2 {
+
+                }
+            }
+            .browse_team {
+                button {
+                    border: 1px solid black;
+                }
+            }
+        }   
+        .team_members {
+            display: flex;
+            img {
+
+            }
+            .names_title {
+
+            }
+        }
+    }
+}
 .newsletter {
     position: relative;
     background-color: #f0efe9;
