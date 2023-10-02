@@ -432,10 +432,11 @@ header {
             .learn_intro {
                 display: flex;
                 align-items: center;
-                padding-top: 120px;
+                // padding-top: 120px;
                 font-family: 'inter', sans-serif;
                 font-size: 16px;
                 font-weight: 400;
+                padding-bottom: 120px;
                 button {
                     
                 }
@@ -764,6 +765,72 @@ header {
             }
         }
         
+    }
+}
+.article_news {
+    .container {
+        .article_title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 125px;
+            padding-bottom: 35px;
+            .section_title {
+                padding: 0;
+                p {
+
+                }
+                h2 {
+
+                }
+                
+            }
+            .browse_articles {
+                button {
+
+                }
+            }
+        }
+        
+        .business_articles {
+            display: flex;
+            article {
+                padding-right: 30px;
+                img {
+                    padding-bottom: 30px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                p {
+                    
+                }
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding-top: 20px;
+                    padding-bottom: 15px;
+                }
+                p {
+
+                }
+            }
+        }
+        .slider_dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding-top: 50px;
+            padding-bottom: 90px;
+            a {
+                text-decoration: none;
+                color: black;
+                
+            }
+        }
     }
 }
 .newsletter {

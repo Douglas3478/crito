@@ -387,10 +387,10 @@ header .container .menu .nav_menu .btn-nav {
 .about_section .container .about_company .learn_intro {
   display: flex;
   align-items: center;
-  padding-top: 120px;
   font-family: "inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  padding-bottom: 120px;
 }
 .about_section .container .about_company .learn_intro .fa-regular {
   font-size: 50px;
@@ -645,6 +645,48 @@ header .container .menu .nav_menu .btn-nav {
   padding-top: 50px;
   padding-bottom: 85px;
 }
+.article_news .container .article_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 35px;
+}
+.article_news .container .article_title .section_title {
+  padding: 0;
+}
+.article_news .container .business_articles {
+  display: flex;
+}
+.article_news .container .business_articles article {
+  padding-right: 30px;
+}
+.article_news .container .business_articles article img {
+  padding-bottom: 30px;
+}
+.article_news .container .business_articles article img:hover {
+  cursor: pointer;
+}
+.article_news .container .business_articles article h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.article_news .container .slider_dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.article_news .container .slider_dots a {
+  text-decoration: none;
+  color: black;
+}
+
 .newsletter {
   position: relative;
   background-color: #f0efe9;
