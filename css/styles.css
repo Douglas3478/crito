@@ -592,6 +592,59 @@ header .container .menu .nav_menu .btn-nav {
 .team_section .container .slider_dots a {
   color: black;
 }
+.testimonial_section {
+  background-color: #F9D783;
+  padding-bottom: 120px;
+}
+.testimonial_section .container {
+  background-color: white;
+  max-width: 1520px;
+}
+.testimonial_section .container .section_title {
+  text-align: center;
+}
+.testimonial_section .container .reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.testimonial_section .container .reviews article {
+  padding-left: 80px;
+  text-align: left;
+}
+.testimonial_section .container .reviews article i {
+  padding-bottom: 35px;
+  padding-right: 5px;
+  color: red;
+}
+.testimonial_section .container .reviews article p {
+  padding-bottom: 40px;
+  font-size: 18px;
+  line-height: 2em;
+}
+.testimonial_section .container .reviews article .review_all {
+  display: flex;
+}
+.testimonial_section .container .reviews article .review_all .section_title {
+  padding: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+.testimonial_section .container .reviews article .review_all .section_title h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.testimonial_section .container .all_reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
 .newsletter {
   position: relative;
   background-color: #f0efe9;
