@@ -554,15 +554,43 @@ header .container .menu .nav_menu .btn-nav {
 .team_section {
   background-color: #F9D783;
 }
+.team_section .container {
+  padding-top: 160px;
+}
 .team_section .container .meet_team {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.team_section .container .meet_team .section_title {
+  padding: 0;
 }
 .team_section .container .meet_team .browse_team button {
   border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 35px;
 }
 .team_section .container .team_members {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+  padding-top: 100px;
+}
+.team_section .container .team_members .names_title h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 35px;
+}
+.team_section .container .slider_dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 70px;
+}
+.team_section .container .slider_dots a {
+  color: black;
 }
 .newsletter {
   position: relative;

@@ -635,11 +635,13 @@ header {
 .team_section {
     background-color: #F9D783;
     .container {
+        padding-top: 160px;
         .meet_team {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .section_title {
-            
+                padding: 0;
                 p {
 
                 }
@@ -650,16 +652,44 @@ header {
             .browse_team {
                 button {
                     border: 1px solid black;
+                    padding-left: 50px;
+                    padding-right: 35px;
                 }
             }
         }   
         .team_members {
             display: flex;
-            img {
-
-            }
+            justify-content: space-between;
+            padding-bottom: 55px;
+            padding-top: 100px;
+            
             .names_title {
+                img {
 
+                }
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding-top: 35px;
+                    
+                }
+                p {
+
+                }
+            }
+        }
+        .slider_dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding-bottom: 70px;
+            a {
+                color: black;
+                i {
+
+                }
             }
         }
     }
