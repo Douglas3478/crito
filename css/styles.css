@@ -836,3 +836,34 @@ footer .container .social_media a:hover {
   top: 235px;
   left: 230px;
 }
+
+.contact_section {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.contact_section .container .contact_info {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_section .container .contact_info .contact_us {
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  padding-right: 110px;
+  padding-left: 50px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+.contact_section .container .contact_info .contact_us .contact_details {
+  margin-left: 20px;
+}
+.contact_section .container .contact_info .contact_us .contact_details h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.contact_section .container .contact_info .contact_us .contact_details p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
