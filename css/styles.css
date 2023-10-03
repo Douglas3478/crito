@@ -799,3 +799,40 @@ footer .container .social_media a {
 footer .container .social_media a:hover {
   color: #F9D783;
 }
+
+.connect_section {
+  background-color: #f0efe9;
+}
+.connect_section .container {
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+.connect_section .container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.connect_section .container nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+.connect_section .container nav a.contact_active {
+  font-weight: 500;
+}
+.connect_section .container .title_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect_section .container .title_contact h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+}
+.connect_section .container img {
+  position: absolute;
+  top: 235px;
+  left: 230px;
+}

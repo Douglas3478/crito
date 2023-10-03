@@ -959,3 +959,40 @@ footer {
         }
     }
 }
+.connect_section {
+    background-color: #f0efe9;
+    .container {
+        padding-top: 115px;
+        padding-bottom: 100px;
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 300;
+                
+                &.contact_active {
+                    font-weight: 500;
+                }
+            }
+        }
+        .title_contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            h1 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 56px;
+            }
+        }
+        img {
+            position: absolute;
+            top: 235px;
+            left: 230px;
+        }
+    }
+}
