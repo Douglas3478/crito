@@ -766,6 +766,36 @@ header .container .menu .nav_menu .btn-nav {
   margin-bottom: 30px;
   white-space: nowrap;
 }
+.summary .container .end_links .summary_end a:hover {
+  color: #F9D783;
+}
 .summary .container .end_links .summary_end:last-child {
   margin-right: 0;
+}
+
+footer {
+  background-color: rgb(14, 16, 33);
+  color: white;
+  border-top: 1px solid grey;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .container .copyright p {
+  margin-bottom: 0;
+}
+footer .container .social_media {
+  display: flex;
+}
+footer .container .social_media a {
+  color: white;
+  margin-left: 20px;
+  font-size: 1.3em;
+}
+footer .container .social_media a:hover {
+  color: #F9D783;
 }
