@@ -875,3 +875,52 @@ header {
         }
     }
 }
+.summary {
+    background-color: rgb(14, 16, 33);
+    color: white;
+    .container {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
+
+        .end_logo {
+            padding-right: 90px;
+            padding-top: 100px;
+            img {
+                padding-bottom: 30px;
+            }
+        }
+
+        .end_links {
+            display: flex;
+            flex-grow: 1;
+            width: 100%;
+
+            .summary_end {
+                padding-top: 140px;
+                margin-right: 135px;
+
+                h3 {
+                    margin-bottom: 55px;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    display: block;
+                    margin-bottom: 30px;
+                    white-space: nowrap; 
+                }
+
+                &:last-child { 
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
