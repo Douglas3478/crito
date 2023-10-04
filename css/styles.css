@@ -552,6 +552,13 @@ header .container .menu .nav_menu .btn-nav {
   text-align: left;
   padding-bottom: 35px;
 }
+.service_section .container .service_advice article img {
+  transition: 0.5s ease;
+}
+.service_section .container .service_advice article img:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+}
 .service_section .container .service_advice article .arrow_black {
   float: right;
 }
@@ -1133,6 +1140,9 @@ footer .container .social_media a:hover {
   font-weight: 300;
 }
 .connect_section .container nav a.contact_active {
+  font-weight: 500;
+}
+.connect_section .container nav a:hover {
   font-weight: 500;
 }
 .connect_section .container .title_contact {
